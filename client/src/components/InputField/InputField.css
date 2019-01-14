@@ -1,0 +1,30 @@
+.inputArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedexInput {
+    min-width: 500px;
+    background: #fafafa;
+    font-size: 1rem;
+    box-sizing: border-box;
+    display: block;
+    color: black;
+    padding: 0.8rem;
+    margin: 0 0 1rem;
+    border: 1px solid #494D4E;
+    border-radius: 5px;
+    box-shadow: 5px 10px #9B4B4A;
+}
+
+.errorArea {
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.error {
+    font-weight: bolder;
+}

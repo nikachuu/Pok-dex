@@ -1,0 +1,22 @@
+.pokedex {
+  display: flex;
+}
+
+.pokedex--searchwrapper {
+  position: fixed;
+  height: 100vh;
+  background: #E84848;
+  max-width: 550px;
+}
+
+.pokedex--search {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.pokedex img {
+  align-self: center;
+  min-width: 300px;
+  min-height: 300px;
+}

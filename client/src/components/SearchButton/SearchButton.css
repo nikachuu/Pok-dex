@@ -1,0 +1,27 @@
+.btn {
+    border-radius: 5px;
+    background: #23B1C7;
+    border: 1px solid #494D4E;
+    align-self: center;
+    min-width: 500px;
+    color: #4D4D4D;
+    padding: 10px;
+
+    font-weight: bolder;
+
+    box-shadow: 5px 10px #9B4B4A;
+
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(93, 214, 233);
+    transition: 0.2s ease-in;
+}
+
+.btn--disabled {
+    color: gray!important;
+    background: lightgrey!important;
+    cursor: not-allowed;
+}

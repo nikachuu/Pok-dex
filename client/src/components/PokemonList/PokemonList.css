@@ -1,0 +1,15 @@
+.pokemon--data {
+  margin-left: 550px;
+  min-width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 5px;
+}
+
+img {
+  background: #fafafa!important;
+}
